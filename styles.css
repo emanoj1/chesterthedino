@@ -1,0 +1,70 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for header, main, and footer */
+header, main, footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Logo styles */
+.logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Main content styles */
+.book-info {
+    text-align: center;
+}
+
+.buy-buttons {
+    margin-top: 20px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
