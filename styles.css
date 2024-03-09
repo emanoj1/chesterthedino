@@ -34,7 +34,14 @@ nav ul li a {
 
 /* Main content styles */
 .book-info {
-    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.book-cover img {
+    max-width: 100%;
+    height: auto;
 }
 
 .buy-buttons {
@@ -116,3 +123,17 @@ footer ul li a {
       justify-content: space-between;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .book-info {
+        padding: 10px;
+        border: 5px solid #555;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .book-info {
+        padding: 5px;
+        border: 5px solid #555;
+    }
+}
