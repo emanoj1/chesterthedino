@@ -13,6 +13,24 @@ header, main, footer {
     padding: 20px;
 }
 
+/* Adding space around paragraphs */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 20px; /* or any desired value */
+}
+
+/* Adding space around images */
+img {
+    margin-bottom: 20px; /* or any desired value */
+}
+
+
+
 /* Logo styles */
 .logo img {
     width: 100px; /* Adjust size as needed */
@@ -37,6 +55,7 @@ nav ul li a {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+    text-align: center; /* Center justify all contents */
 }
 
 .book-cover img {
