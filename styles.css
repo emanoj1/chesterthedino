@@ -73,3 +73,46 @@ footer ul li a {
 .book-info {
     border: 5px solid #555;
 }
+
+/* Mobile responsiveness */
+@media screen and (min-width: 768px) {
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  }
+  /* Navigation bar layout across mobile */
+  .nav-background {
+    background-color: #a5a5a5;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  /* Tablet responsiveness */
+  @media screen and (min-width: 769px) {
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  }
+  /* Navigation bar across Tablet */
+  .nav-background {
+    background-color: #a5a5a5;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  /* Desktop responsiveness */
+  @media screen and (min-width: 1024px) {
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  }
