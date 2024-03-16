@@ -39,6 +39,7 @@ img {
 /* Navigation styles */
 nav ul {
     list-style: none;
+    text-align: center;
 }
 
 nav ul li {
